@@ -1,0 +1,6 @@
+I have used the OOTB Vlocity Components to acheive the requirement
+Order is created and associated to PriceList
+When order record page is loaded I have used the OmniScript which includes to custom LWC Components (Available Products and Order Products) to display related Products.
+Available Products component display all the components that are applicable and all includes "Add to Order" button
+Order Products will start displaying products when "Add to order" button in invoked in Available Order component
+Activate button in Order Component will create OrderItems and Sets the status of Order to Activated. This is acheived by Calling Intergration Procedure from LWC.
